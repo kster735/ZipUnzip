@@ -1,8 +1,9 @@
 #pragma once
+#include <string>
 
 class Zip
 {
 };
 
-void zip(void);
+void zip(std::string filename);
 

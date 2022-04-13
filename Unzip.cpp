@@ -7,8 +7,8 @@
 
 using namespace std;
 
-void unzip() {
-	ifstream inFile("results.txt");
+void unzip(string filename) {
+	ifstream inFile(filename);
 	ofstream outFile("decompressed.txt");
 	map<int, string> m;
 	string line,word,thesi;
@@ -18,22 +18,23 @@ void unzip() {
 		space_pos = line.find(" ");
 		word = line.substr(0, space_pos);
 		line = line.substr(space_pos + 1);
-		cout << word << " ";
+
 		while ((space_pos = line.find(" ")) > -1) {
 			thesi = line.substr(0, space_pos);
 			ithesi = stoi(thesi);
 			line = line.substr(space_pos + 1);
 			m[ithesi] = word;
-			cout << ithesi << " ";
 		}
-		cout << endl;
-	/*	ithesi = stoi(line);
-		m[ithesi] = word;*/
+	}
 
-		//map<int, string>::iterator it;
-		for (int i = 0; i <= 10; i++) {
-			outFile <<m[i] << " ";
-		}
+
+	for (int i = 0; i < m.size(); i++) {
+		cout << i << " " << m[i] << endl;
+	}
+
+
+	for (int i = 0; i <m.size(); i++) {
+		outFile << m[i] << " ";
 	}
 
 	outFile.close();

@@ -7,8 +7,8 @@
 
 using namespace std;
 
-void zip(){
-	ifstream fromFile("input.txt");
+void zip(string filename){
+	ifstream fromFile(filename);
 	ofstream toFile("results.txt");
 
 	string w;
