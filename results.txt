@@ -1,0 +1,174 @@
+(Java 202 
+(OS) 20 
+(or 60 
+(such 27 
+A 119 
+An 0 135 
+As 251 
+At 207 
+EE), 203 
+EE-compliant 239 
+Edition 201 
+Enterprise 200 
+Forecast 249 
+Internet 36 
+It 10 166 
+Java 199 238 
+Market 246 
+OSs, 217 
+Proprietary 236 
+Share 247 
+Some 187 
+The 49 77 
+[DBMS], 33 
+a 4 29 178 260 
+access 69 
+according 144 
+act 57 
+affinity 180 
+also 138 284 
+although 175 
+and 35 41 71 85 92 102 107 133 152 172 195 223 229 237 248 263 278 
+another 39 
+application 1 53 78 122 136 141 151 162 188 193 211 240 253 271 
+application. 76 
+applications 44 126 
+applications, 101 219 
+applications. 118 
+are 204 213 230 242 283 
+as 28 58 198 221 233 274 
+availability 132 
+becomes 259 
+been 164 
+between 16 
+built 215 
+business 65 75 114 125 150 
+capabilities, 281 
+client 89 
+communications 34 
+competing 86 
+container) 61 
+criterion, 262 
+data 106 
+database 30 
+delivers 124 
+deployment 173 
+design 142 
+designed. 165 
+despite 82 
+distributed 96 
+e-commerce 224 
+entirely 205 
+estimated 243 
+event-based 279 
+extensions 269 
+external 25 
+extreme 275 
+facilitating 68 
+failures, 94 
+for 62 159 
+form 6 
+fulfill 112 
+function 50 
+guaranteed 128 
+hardware 91 
+has 163 
+have 177 
+heterogeneity 104 
+high 257 
+high-end 120 
+host 59 
+implement 191 
+in 155 244 286 
+included 285 
+incorporate 268 
+industry 158 
+integrity. 134 
+interfaces 194 
+into 216 
+is 3 11 55 
+languages 171 
+larger-scale 100 
+levels 129 
+logic 66 
+management 31 
+market 255 288 
+matures, 256 
+middleware. 9 
+modern 5 
+most 176 
+multiple 140 169 
+must 80 
+nature 97 147 
+not 231 
+now 267 
+of 7 51 73 88 98 105 116 130 148 185 
+offered 232 
+on 21 38 45 
+one 22 182 
+online-transaction-processing-style 121 
+operating 18 
+or 183 226 
+other 227 
+our 245 
+packaged 218 
+particular 157 179 
+patterns, 143 
+perform 81 
+performance 72 258 
+performance, 131 
+platform 8 
+platforms, 174 
+portals 222 
+potential 103 
+practices 154 
+present, 208 
+processing 108 277 280 
+products 228 
+products. 235 
+programming 170 
+proprietary 210 
+proprietary. 206 
+protocols, 196 
+reports. 250 
+requests, 90 
+required 110 
+requirements 115 
+resides 15 
+resources 26 109 
+segment. 289 
+server 2 54 79 123 137 254 
+servers 189 212 241 
+servers, 272 
+services) 37 
+side 40 
+side, 23 
+side. 48 
+software 13 93 
+solutions, 225 
+stand-alone 234 
+standard 192 
+stronger 261 
+such 197 220 273 
+supports 139 168 
+system 12 19 32 
+that 14 190 
+the 17 24 42 46 52 63 74 83 95 99 113 117 146 149 153 156 161 209 252 
+these 282 
+these. 186 
+third 47 
+this 287 
+thus 264 
+to 56 70 111 145 181 270 
+traffic 87 
+transaction 276 
+two 184 
+typically 167 214 
+users’ 43 
+user’s 64 
+variable 84 
+vendors 266 
+where 265 
+which 160 
+while 67 
+with 127 

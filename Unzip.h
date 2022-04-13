@@ -3,5 +3,5 @@ class Unzip
 {
 };
 
-void unzip();
+void unzip(void);
 

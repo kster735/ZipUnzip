@@ -8,30 +8,34 @@
 using namespace std;
 
 void unzip() {
-	ofstream outFile("results.txt");
+	ifstream inFile("results.txt");
+	ofstream outFile("decompressed.txt");
 	map<int, string> m;
-	string w = "Anan 0 200 300";
-	int pos, th;
+	string line,word,thesi;
+	int ithesi, space_pos;
+		
+	while (getline(inFile, line)) {
+		space_pos = line.find(" ");
+		word = line.substr(0, space_pos);
+		line = line.substr(space_pos + 1);
+		cout << word << " ";
+		while ((space_pos = line.find(" ")) > -1) {
+			thesi = line.substr(0, space_pos);
+			ithesi = stoi(thesi);
+			line = line.substr(space_pos + 1);
+			m[ithesi] = word;
+			cout << ithesi << " ";
+		}
+		cout << endl;
+	/*	ithesi = stoi(line);
+		m[ithesi] = word;*/
 
-	pos = w.find(" ");
-	string w2 = w.substr(0, pos);
-	w = w.substr(pos + 1);
-
-	while ((pos = w.find(" ")) > -1) {
-		string thesi = w.substr(0, pos);
-		th = stoi(thesi);
-		w = w.substr(pos + 1);
-		cout << "thesi=" << thesi << endl;
-		m[th] = w2;
+		//map<int, string>::iterator it;
+		for (int i = 0; i <= 10; i++) {
+			outFile <<m[i] << " ";
+		}
 	}
-	cout << "thesi=" << w << endl;
 
-	th = stoi(w);
-	m[th] = w2;
-
-	map<int, string>::iterator it;
-	for (it = m.begin(); it != m.end(); it++) {
-		cout << (*it).first << ": " << (*it).second << endl;
-	}
 	outFile.close();
+	inFile.close();
 }
