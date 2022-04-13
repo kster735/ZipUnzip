@@ -19,16 +19,17 @@ void zip() {
 	pos = 0;
 	while (fromFile >> w) {
 		
-		mit = m.find(w);  // � find �� ���������� ��� ���� ��� �������� �� ������ �� w. �� ��� ������� ���������� ��� ������� ���������� �������� zip.end()
-		if (mit == m.end()) {  // ��� ������� ��� Map ������� �� ������ ��� ���� w.
+		mit = m.find(w);  
+		if (mit == m.end()) {  
 			vector<int> temp;
 			temp.push_back(pos);
 			m[w] = temp;
 		}
-		else {					  
-			vector<int> temp = m[w];  
+		else {		
+			m[w].push_back(pos);
+			/*vector<int> temp = m[w];  
 			temp.push_back(pos);
-			m[w] = temp;
+			m[w] = temp;*/
 		}
 		pos++;
 	}
