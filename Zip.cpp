@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void zip() {
+void zip(){
 	ifstream fromFile("input.txt");
 	ofstream toFile("results.txt");
 
@@ -18,7 +18,6 @@ void zip() {
 
 	pos = 0;
 	while (fromFile >> w) {
-		
 		mit = m.find(w);  
 		if (mit == m.end()) {  
 			vector<int> temp;
@@ -27,9 +26,6 @@ void zip() {
 		}
 		else {		
 			m[w].push_back(pos);
-			/*vector<int> temp = m[w];  
-			temp.push_back(pos);
-			m[w] = temp;*/
 		}
 		pos++;
 	}
@@ -52,6 +48,4 @@ void zip() {
 		}
 		toFile << endl;
 	}
-
-
 }

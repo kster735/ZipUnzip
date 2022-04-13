@@ -1,12 +1,14 @@
-#include "Unzip.h"
 #include <iostream>
 #include <string>
-#include <map>
 #include <sstream>
+#include <fstream>
+#include <map>
+#include "Unzip.h"
 
 using namespace std;
 
 void unzip() {
+	ofstream outFile("results.txt");
 	map<int, string> m;
 	string w = "Anan 0 200 300";
 	int pos, th;
@@ -17,21 +19,21 @@ void unzip() {
 
 	while ((pos = w.find(" ")) > -1) {
 		string thesi = w.substr(0, pos);
-		istringstream(thesi) >> th;
+		//istringstream(thesi) >> th;
+		th = stoi(thesi);
 		w = w.substr(pos + 1);
 		cout << "thesi=" << thesi << endl;
 		m[th] = w2;
 	}
 	cout << "thesi=" << w << endl;
-	istringstream(w) >> th;
+	//istringstream(w) >> th;
+	th = stoi(w);
 	m[th] = w2;
 
 	map<int, string>::iterator it;
 	for (it = m.begin(); it != m.end(); it++) {
 		cout << (*it).first << ": " << (*it).second << endl;
 	}
-
-
 	//	 // string -> integer
 	//        std::istringstream ( str ) >> i;
 	//
@@ -41,4 +43,5 @@ void unzip() {
 	//        // string -> double 
 	//        std::istringstream ( str ) >> d;
 
+	outFile.close();
 }
