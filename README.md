@@ -1,5 +1,5 @@
 # ZipUnzip
-    Simple compression project for text files
+    Simple windows cmd compression project for text files.
 
 ## Usage for zip:
     ZipUnzip zip filename
