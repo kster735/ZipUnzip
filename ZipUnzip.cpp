@@ -6,7 +6,12 @@
 using namespace std;
 
 int main(int argc,  char** argv){
-	string usage = "Usage:\n	ZipUnzip zip filename\nA results.txt file will be the output.\nUsage:\n	ZipUnzip unzip filename\nA decompressed.txt file will be the output.\n ";
+	string usage = "Usage:\n"
+		"	ZipUnzip zip filename\n"
+		"A results.txt file will be the output.\n"
+		"Usage:\n"	
+		"	ZipUnzip unzip filename\n"
+		"A decompressed.txt file will be the output.\n";
 	if (argc != 3) {
 		cout  << "Too few arguments" << endl;
 		cout << usage;
